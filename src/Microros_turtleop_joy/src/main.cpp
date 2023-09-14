@@ -31,12 +31,17 @@ rcl_node_t node;
 #define RCSOFTCHECK(fn) { rcl_ret_t temp_rc = fn; if((temp_rc != RCL_RET_OK)){}}
 
 
-
 const int linear_x_pin = 35;// The pins where joystick are attached
 const int angular_z_pin = 34;
 
+
+
 int mapped_linear;
 int mapped_angular;
+
+  char *SSID =const_cast<char*>("yourSSID"); // WIFI SSID
+  char* PASSWORD=const_cast<char*>("yourPASSWORD"); //WIFI PASSWORD
+  char* HOST_IP =const_cast<char*>("yourHOSTPC's_IP"); //host_ip
 
 void error_loop(){
   while(1){
@@ -47,8 +52,9 @@ void error_loop(){
 
 
 void setup() {
-  Serial.begin(115200);
-  set_microros_wifi_transports("Zyme", "lolspaw7", "192.168.215.102", 8888);
+  //Serial.begin(115200);
+
+  set_microros_wifi_transports(SSID, PASSWORD, HOST_IP, 8888);
 
   pinMode(LED_PIN, OUTPUT);
 
@@ -88,7 +94,7 @@ void loop() {
 
     RCSOFTCHECK(rcl_publish(&publisher, &twist, NULL));
     twist.linear.x=mapped_linear;
-    twist.angular.z=mapped_angular;
+    twist.angular.z= -(mapped_angular);
 
     // twist.linear.x=Linear_Value; // for testing
     // twist.angular.z=Angular_Value;
