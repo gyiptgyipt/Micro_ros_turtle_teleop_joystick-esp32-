@@ -1,3 +1,5 @@
+### This project is wifi
+
 
 ### First : try to flash firmware to ESP32 
 
@@ -32,11 +34,8 @@ I use this library for that project in platformio.
 https://github.com/kaiaai/micro_ros_arduino_kaia?utm_source=platformio&utm_medium=piohome
 '''
 and this for ArduinoIDE2
-'''
-https://github.com/micro-ROS/micro_ros_arduino
-'''
 
-
+'''https://github.com/micro-ROS/micro_ros_arduino'''
 
 #In this project I used platformio to build project and used micro_ros_arduino library.
 That mean you can also use with arduinoide2.
