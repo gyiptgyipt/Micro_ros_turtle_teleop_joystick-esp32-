@@ -39,7 +39,9 @@ https://github.com/micro-ROS/micro_ros_arduino
 
 
 #In this project I used platformio to build project and used micro_ros_arduino library.
-That mean you can just copy the main code and just upload with arduinoide2.
+That mean you can also use with arduinoide2.
+just copy the main code and just upload with arduinoide2.
+With platformio there is the library list and version in platformio.init file.(You don't need to install and add manually)
 
 
 ### Second step : Install micro_ros_agent package: 
