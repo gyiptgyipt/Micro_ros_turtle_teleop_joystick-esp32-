@@ -56,7 +56,7 @@ And build and source declear that project in your ros2 workspace.
 ### Third step : Listen to micro_controller with micro_ros_agent :
 
 In this project, I use wifi udp4 to get the data from micro_controller.
-# warning : Don't forget to change the wifi SSID,PASSOWRD and host computer ip address and don't use 24,25 pins for joystick module in esp32 (That used by wifi).
+### warning : Don't forget to change the wifi SSID,PASSOWRD and host computer ip address and don't use 24,25 pins for joystick module in esp32 (That used by wifi).
 
 run that in your host pc:
 ```
