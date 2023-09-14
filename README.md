@@ -1,5 +1,4 @@
-### This project is wifi
-
+# This project is micro-ros with ESP32 for teleoperation_joy
 
 ### First : try to flash firmware to ESP32 
 
