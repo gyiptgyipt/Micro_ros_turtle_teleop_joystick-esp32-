@@ -64,4 +64,4 @@ ros2 run micro_ros_agent micro_ros_agent udp4 --port 8888
 
 ## check node list and topic list:
 
-### Future -> adding launch file turtlesim_node 
+### Back to the workspace folder and follow the instruction
