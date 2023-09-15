@@ -4,7 +4,8 @@
 
 Download the repo to your workspace 
 
-```https://github.com/Htet-Wai-Yan-HWY/Micro_ros_turtle_teleop_joystick-esp32-.git
+```
+https://github.com/Htet-Wai-Yan-HWY/Micro_ros_turtle_teleop_joystick-esp32-.git
 ```
 
 ### Second step:
@@ -17,14 +18,16 @@ Download the repo to your workspace
 
  - GO to your workspace and build the project
 
-```colcon build --symklink--install 
+```
+colcon build --symklink--install 
 ``` 
 
 ### Fourth step:
 
  - source the project 
  
- ```source install.setup.bash
+ ```
+ source install.setup.bash
  ```
 
 
@@ -33,7 +36,8 @@ Download the repo to your workspace
 
  -launch the launch fikle in ros2_turtlesim_launch package.
 
-```ros2 launch ros2_turtlesim_launch launch.launch.py
+```
+ros2 launch ros2_turtlesim_launch launch.launch.py
 ```
  - check the output from the launch file that will show about node,topic and communication details.
 
