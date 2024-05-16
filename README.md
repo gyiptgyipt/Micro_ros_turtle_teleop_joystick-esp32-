@@ -5,12 +5,12 @@
 Download the repo to your workspace 
 
 ```
-https://github.com/Htet-Wai-Yan-HWY/Micro_ros_turtle_teleop_joystick-esp32-.git
+https://github.com/Htet-Wai-Yan-HWY/Micro_ros_turtle_teleop_joystick-esp32.git
 ```
 
 ### Second step:
 
- - Go to your_workspace//src/Microros_turtleop_joy
+ - Go to [src/Microros_turtleop_joy](https://github.com/gyiptgyipt/Micro_ros_turtle_teleop_joystick-esp32-/tree/main/src/Microros_turtleop_joy)
 
  - Follow the instruction to flash firmware to your micro-controller and upload the code .../Microros_turtleop_joy/src/main.cpp
 
